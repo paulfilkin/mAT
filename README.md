@@ -7,7 +7,7 @@ This repository contains the source code for the multifarious Automation Tool (m
 
 - [Overview](#overview)
 - [Installation](#installation)
-- [Usage](#usage)
+- [Pre-requisites](#pre-requisites)
 - Menu Structure
   - [Main Menu](#main-menu)
   - [Submenus](#submenus)
