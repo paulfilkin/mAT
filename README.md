@@ -13,7 +13,6 @@ This repository contains the source code for the multifarious Automation Tool (m
   - [Submenus](#submenus)
 - [Customisation](#customisation)
 - [File Descriptions](#file-descriptions)
-- [License](#license)
 
 ## Overview
 
