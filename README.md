@@ -1,6 +1,6 @@
 
 
-# mAT (multifarious Automation Toolkit)
+# mAT (multifarious Automation Tool)
 This repository contains the source code for the multifarious Automation Tool (mAT), a custom-built automation tool designed to streamline various tasks related to Trados Studio, PowerShell, and other utilities. The tool is developed using AutoHotkey v2.0 and provides a highly customisable popup menu system that integrates with a wide range of software and scripts.
 
 ## Table of Contents
