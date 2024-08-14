@@ -1,6 +1,6 @@
+![PopUpMenu using AutoHotkey](./images/mAT.png)
 
-
-# mAT (multifarious Automation Tool)
+# mAT (multifarious Automation Toolkit)
 This repository contains the source code for the multifarious Automation Tool (mAT), a custom-built automation tool designed to streamline various tasks related to Trados Studio, PowerShell, and other utilities. The tool is developed using AutoHotkey v2.0 and provides a highly customisable popup menu system that integrates with a wide range of software and scripts.
 
 ## Table of Contents
@@ -13,6 +13,7 @@ This repository contains the source code for the multifarious Automation Tool (m
   - [Submenus](#submenus)
 - [Customisation](#customisation)
 - [File Descriptions](#file-descriptions)
+- [Credits](#credits)
 
 ## Overview
 
@@ -80,3 +81,7 @@ The mAT tool is highly customisable. You can easily modify the menu structure, a
 - **menu/SubMenuTools.ahk**: Contains the items for the Tools submenu.
 - **menu/SubMenuScripting.ahk**: Contains the items for the Scripting submenu.
 - **ico/index.ahk**: Defines the paths to the icons used in the menus.
+
+## Credits
+
+The credit for how to use AutoHotKey version 2 to create a menu like this goes to Ulrich Klug and the video he created here - [AutoHotKey Version 2 PopUpMenu](https://www.youtube.com/watch?v=CNDnbEPCBfI&t=153s).  The tutorial he created in this video was totally enlightening and made it very easy for me to put this together.  The changes I made to the code he explained were minimal and mostly around mechanisms for running my powershell scripts that required admin rights, and a small change to the tray features.
