@@ -2,20 +2,29 @@
 
 SubMenuPowershell()
 {
+    ; Create the Powershell menu
     PowershellMenu := Menu()
 
+    ; Add the Powershell menu to the main popup menu
     PopUpMenu.Add("Powershell", PowershellMenu)
     PopUpMenu.SetIcon("Powershell", iconPowershell, , 24)
 
-    PowershellMenu.Add("Create new File-based TM", HandlerSubMenuPowershell)
-    PowershellMenu.SetIcon("Create new File-based TM", iconCreateFBTM, , 24)
+    ; Add a submenu under Powershell for "Trados Studio scripts"
+    TradosStudioScripts := Menu()
+    PowershellMenu.Add("Trados Studio", TradosStudioScripts)
+    PowershellMenu.SetIcon("Trados Studio", iconStudio, , 24)
 
-    PowershellMenu.Add("Upgrade TMX", HandlerSubMenuPowershell)
-    PowershellMenu.SetIcon("UPgrade TMX", iconUpgradeTMX, , 24)
+    ; Add items to the Trados Studio submenu
+    TradosStudioScripts.Add("Create new File-based TM", HandlerSubMenuPowershell)
+    TradosStudioScripts.SetIcon("Create new File-based TM", iconCreateFBTM, , 24)
 
-    PowershellMenu.Add("Create Project (using Project Template)", HandlerSubMenuPowershell)
-    PowershellMenu.SetIcon("Create Project (using Project Template)", iconCPProjectTemplate, , 24)
+    TradosStudioScripts.Add("Upgrade TMX", HandlerSubMenuPowershell)
+    TradosStudioScripts.SetIcon("Upgrade TMX", iconUpgradeTMX, , 24)
 
+    TradosStudioScripts.Add("Create Project (using Project Template)", HandlerSubMenuPowershell)
+    TradosStudioScripts.SetIcon("Create Project (using Project Template)", iconCPProjectTemplate, , 24)
+
+    ; Add a separator in the main popup menu
     PopUpMenu.Add()
 }
 
