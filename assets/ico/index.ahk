@@ -50,6 +50,10 @@ iconPowershellHelp := iconPathTrados "powershellHelp.ico"
 iconExportSDLTMtoTMX := iconPathTrados "exportTMX.ico"
 iconGSDemo := iconPathTrados "GSDemo.ico"
 iconAddCredentials := iconPathTrados "addCredentials.ico"
+iconstudioTK := iconPathTrados "Studio_Toolkit.ico"
+iconlanguagecloudTK := iconPathTrados "Trados_LC_Toolkit.ico"
+icongroupshareTK := iconPathTrados "GroupShare_Toolkit.ico"
+
 
 ;Github
 iconGithub := iconPathGithub "github.ico"
