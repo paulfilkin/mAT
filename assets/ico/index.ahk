@@ -46,6 +46,10 @@ iconPowershell := iconPathTrados "powershell_toolkit_icon.ico"
 iconCreateFBTM := iconPathTrados "FileBasedTM.ico"
 iconUpgradeTMX := iconPathTrados "upgradeTMX.ico"
 iconCPProjectTemplate := iconPathTrados "Project.ico"
+iconPowershellHelp := iconPathTrados "powershellHelp.ico"
+iconExportSDLTMtoTMX := iconPathTrados "exportTMX.ico"
+iconGSDemo := iconPathTrados "GSDemo.ico"
+iconAddCredentials := iconPathTrados "addCredentials.ico"
 
 ;Github
 iconGithub := iconPathGithub "github.ico"

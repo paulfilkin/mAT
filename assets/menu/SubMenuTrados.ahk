@@ -13,8 +13,8 @@ SubMenuTrados()
     TradosMenu.Add("Language Cloud", HandlerSubMenuTrados)
     TradosMenu.SetIcon("Language Cloud", iconLanguageCloud, , 24)
 
-    TradosMenu.Add("Multiterm", HandlerSubMenuTrados)
-    TradosMenu.SetIcon("Multiterm", iconMultiTerm, , 24)
+    TradosMenu.Add("GroupShare", HandlerSubMenuTrados)
+    TradosMenu.SetIcon("GroupShare", iconGroupShare, , 24)
     
     PopUpMenu.Add()
 }
@@ -29,9 +29,7 @@ HandlerSubMenuTrados(ItemName, *)
         case "Language Cloud":
             Run "https://languagecloud.sdl.com/"
 
-        case "Multiterm 2024":
-           ; Run "c:\Program Files (x86)\Trados\MultiTerm\MultiTerm18\MultiTerm.exe"
-            SetWorkingDir "c:\Program Files (x86)\Trados\MultiTerm\MultiTerm18"
-            Run "MultiTerm.exe"
+        case "GroupShare":
+            Run "https://groupsharedev.sdlproducts.com/"
     }
 }

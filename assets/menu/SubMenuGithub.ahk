@@ -27,7 +27,7 @@ HandlerSubMenuGithub(ItemName, *)
             Run "https://github.com/RWS/Sdl-studio-powershell-toolkit/tree/master/"
 
         case "Trados GroupShare Powershell Toolkit":
-            Run "https://github.com/RWS/rws-trados-groupshare-api-powershell-toolkit"
+            Run "https://github.com/RWS/groupshare-api-powershell-toolkit/tree/main"
 
         case "STraSAK (SDL Trados Studio Automation Kit)":
             Run "https://github.com/EvzenP/STraSAK"
