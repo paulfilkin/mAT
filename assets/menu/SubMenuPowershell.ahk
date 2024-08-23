@@ -15,7 +15,7 @@ SubMenuPowershell()
     ; Add a submenu under Powershell for "Trados Studio scripts"
     TradosStudioScripts := Menu()
     PowershellMenu.Add("Trados Studio", TradosStudioScripts)
-    PowershellMenu.SetIcon("Trados Studio", iconStudio, , 24)
+    PowershellMenu.SetIcon("Trados Studio", iconstudioTK, , 24)
 
     ; Add items to the Trados Studio submenu
     TradosStudioScripts.Add("Trados Studio get-help", HandlerSubMenuPowershell.Bind("Trados Studio"))
@@ -39,7 +39,7 @@ SubMenuPowershell()
     ; Add a submenu under Powershell for "GroupShare scripts"
     GroupShareScripts := Menu()
     PowershellMenu.Add("GroupShare", GroupShareScripts)
-    PowershellMenu.SetIcon("GroupShare", iconGroupShare, , 24)
+    PowershellMenu.SetIcon("GroupShare", icongroupshareTK, , 24)
 
     ; Add items to the GroupShare submenu
     GroupShareScripts.Add("GroupShare get-help", HandlerSubMenuPowershell.Bind("GroupShare"))
@@ -57,7 +57,7 @@ SubMenuPowershell()
     ; Add a submenu under Powershell for "LanguageCloud scripts"
     LanguageCloudScripts := Menu()
     PowershellMenu.Add("LanguageCloud", LanguageCloudScripts)
-    PowershellMenu.SetIcon("LanguageCloud", iconLanguageCloud, , 24)
+    PowershellMenu.SetIcon("LanguageCloud", iconlanguagecloudTK, , 24)
 
 
 
