@@ -33,6 +33,7 @@ SubMenuTools()
 SubMenuScripting()
 
 
+
 ; Main Menu
 PopUpMenu.Add("Close Menu", HandlerMainMenu)
 PopUpMenu.SetIcon("Close Menu", iconCloseMenu, , 24)
